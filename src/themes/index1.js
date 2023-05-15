@@ -21,7 +21,7 @@ function Index1() {
       <Salecard />
       <ProductListingSecond title="Popular Sales" />
       <Recent title="Popular Sales" />
-      <ServiceCard />
+      <ServiceCard bg />
       <Footer />
     </>
   );

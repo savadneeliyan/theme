@@ -1,12 +1,12 @@
 import React from 'react'
 
-function ServiceCard() {
+function ServiceCard({ bg }) {
   return (
     <div
       className="w-full min-h-[307px] my-10 bg-cover flex justify-center items-center"
       data-aos="fade-up"
       data-aos-duration="2000"
-      style={{ backgroundImage: `url(/images/discount-banner-1.jpg)` }}
+      style={bg && { backgroundImage: `url(/images/discount-banner-1.jpg)` }} 
     >
       <div className="container-xl mx-auto">
         <div class="best-services w-full  flex flex-col gap-10 space-y-10 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center lg:h-[110px] px-10 lg:py-0 py-10">
